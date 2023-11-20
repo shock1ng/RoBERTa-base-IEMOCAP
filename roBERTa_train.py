@@ -11,7 +11,7 @@ import torch.utils.data as Data
 import torch.nn.utils.rnn as rmm_utils
 import torch.utils.data.dataset as Dataset
 import torch.optim as optim
-from utils_mel_bert import Get_data   # 改成我的
+from utils_RNN_BERT import Get_data   # 这里因为后期工作做了太多魔改，这里已经不能正常提取了，要正常运行必须把这个utils改回去，懒得改了
 from torch.autograd import Variable
 from models import getRoBert    # 具体到那个函数
 from sklearn.metrics import confusion_matrix
